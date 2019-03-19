@@ -2,15 +2,10 @@ package guru.springframework.services;
 
 import guru.springframework.repositories.*;
 import org.springframework.beans.factory.annotation.*;
-import org.springframework.context.annotation.*;
-import org.springframework.stereotype.*;
 
 /**
  * Created by jt on 5/24/17.
  */
-@Service
-@Primary
-@Profile("de")
 public class PrimaryGermanGreetingService implements GreetingService {
 
     private GreetingRepository greetingRepository;
